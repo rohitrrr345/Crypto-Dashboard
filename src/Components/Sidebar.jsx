@@ -97,18 +97,18 @@ const Sidebar = () => {
     <li className=' py-2 px-4 rounded-[10px] '
       style={{
         backgroundColor: location.pathname.includes(url)
-          ? "rgba(0,115,255,0.1)"
-          : "white",
+          ? "black"
+          : " rgb(154, 154, 154)",
       }}
     >
-      <Link className='  flex flex-row justify-center items-center gap-2 text-black '
+      <Link className='  flex flex-row justify-center items-center gap-2 text-black'
         to={url}
         style={{
-          color: location.pathname.includes(url) ? "rgb(0,115,255)" : "black",
+          color: location.pathname.includes(url) ? "black" : "white",
         }}
       >
-        <Icon />
-        <p >{text}</p>
+        <Icon className="text-white" />
+        <p className="text-white" >{text}</p>
       </Link>
     </li>
   );
