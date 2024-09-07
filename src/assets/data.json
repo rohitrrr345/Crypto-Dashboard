@@ -1,0 +1,53 @@
+{
+    "categories": [
+      {
+        "value": 40,
+        "heading": "Solana"
+      },
+  
+      {
+        "value": 100,
+        "heading": "Eth"
+      },
+      {
+        "value": 80,
+        "heading": "Binance"
+      },
+      {
+        "value": 60,
+        "heading": "Bitcoin"
+      }
+    ],
+  
+    "transaction": [
+      {
+        "id": "ksdnfkjsdfx",
+        "amount": 4000,
+        "quantity": 4,
+        "discount": 300,
+        "status": "Processing"
+      },
+      {
+        "id": "sdsdssdsd",
+        "amount": 5100,
+        "quantity": 2,
+        "discount": 900,
+        "status": "Processing"
+      },
+      {
+        "id": "sdsdcvsssdsd",
+        "amount": 13000,
+        "quantity": 91,
+        "discount": 0,
+        "status": "Shipped"
+      },
+      {
+        "id": "dfddddfd",
+        "amount": 2300,
+        "quantity": 4,
+        "discount": 2000,
+        "status": "Processing"
+      }
+    ]
+  }
+  
